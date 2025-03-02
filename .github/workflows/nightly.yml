@@ -6,6 +6,9 @@ on:
 
 jobs:
   upgrade:
+    permissions:
+       contents: write
+       pull-requests: write
     runs-on: ubuntu-latest
     env:
       NODE_OPTIONS: '--max_old_space_size=4096'
