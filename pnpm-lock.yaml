@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -18,8 +18,8 @@ dependencies:
     specifier: ^0.57.7
     version: 0.57.7(vite@5.4.10)
   astro:
-    specifier: ^5.5.4
-    version: 5.5.4(typescript@5.3.3)
+    specifier: ^5.6.1
+    version: 5.6.1(typescript@5.3.3)
   astro-font:
     specifier: ^0.0.80
     version: 0.0.80
@@ -2313,8 +2313,8 @@ packages:
     resolution: {integrity: sha512-RjUANXSNdt0Yp2Tpyn7woBg67hCX2Gy1OiiA7B0NX501LcrzvFHoX98CoBgJC5af3tj3fznfLqqBmMr7wu6+fQ==}
     dev: false
 
-  /astro@5.5.4(typescript@5.3.3):
-    resolution: {integrity: sha512-rc9Mj6dIKM9ylTSQ0/S1l5f1iSDNs0PEjRMnvVpZ0W+wfBCu99JEuXy+fiWDNT6gf60bC4dKQehZxZGdSJB9kg==}
+  /astro@5.6.1(typescript@5.3.3):
+    resolution: {integrity: sha512-aQ2TV7wIf+q2Oi6gGWMINHWEAZqoP0eH6/mihodfTJYATPWyd03JIGVfjtYUJlkNdNSKxDXwEe/r/Zx4CZ1FPg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
@@ -2354,7 +2354,7 @@ packages:
       neotraverse: 0.6.18
       p-limit: 6.2.0
       p-queue: 8.1.0
-      package-manager-detector: 1.0.0
+      package-manager-detector: 1.1.0
       picomatch: 4.0.2
       prompts: 2.4.2
       rehype: 13.0.2
@@ -2363,17 +2363,17 @@ packages:
       tinyexec: 0.3.2
       tinyglobby: 0.2.12
       tsconfck: 3.1.5(typescript@5.3.3)
-      ultrahtml: 1.5.3
+      ultrahtml: 1.6.0
       unist-util-visit: 5.0.0
       unstorage: 1.15.0
       vfile: 6.0.3
-      vite: 6.2.2
-      vitefu: 1.0.6(vite@6.2.2)
+      vite: 6.2.6
+      vitefu: 1.0.6(vite@6.2.6)
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.1
       zod: 3.24.2
-      zod-to-json-schema: 3.24.3(zod@3.24.2)
+      zod-to-json-schema: 3.24.5(zod@3.24.2)
       zod-to-ts: 1.2.0(typescript@5.3.3)(zod@3.24.2)
     optionalDependencies:
       sharp: 0.33.3
@@ -3841,22 +3841,6 @@ packages:
       zwitch: 2.0.4
     dev: false
 
-  /hast-util-to-html@9.0.4:
-    resolution: {integrity: sha512-wxQzXtdbhiwGAUKrnQJXlOPmHnEehzphwkK7aluUPQ+lEc1xefC8pblMgpp2w5ldBTEfveRIrADcrhGIWrlTDA==}
-    dependencies:
-      '@types/hast': 3.0.4
-      '@types/unist': 3.0.2
-      ccount: 2.0.1
-      comma-separated-tokens: 2.0.3
-      hast-util-whitespace: 3.0.0
-      html-void-elements: 3.0.0
-      mdast-util-to-hast: 13.0.2
-      property-information: 6.4.0
-      space-separated-tokens: 2.0.2
-      stringify-entities: 4.0.3
-      zwitch: 2.0.4
-    dev: false
-
   /hast-util-to-html@9.0.5:
     resolution: {integrity: sha512-OguPdidb+fbHQSU4Q4ZiLKnzWo8Wwsf5bZfbvu7//a9oTYoqD/fWpe96NuHkoS9h0ccGOTe0C4NGXdtS0iObOw==}
     dependencies:
@@ -5207,8 +5191,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /package-manager-detector@1.0.0:
-    resolution: {integrity: sha512-7elnH+9zMsRo7aS72w6MeRugTpdRvInmEB4Kmm9BVvPw/SLG8gXUGQ+4wF0Mys0RSWPz0B9nuBbDe8vFeA2sfg==}
+  /package-manager-detector@1.1.0:
+    resolution: {integrity: sha512-Y8f9qUlBzW8qauJjd/eu6jlpJZsuPJm2ZAV0cDVd420o4EdpH5RPdoCv+60/TdJflGatr4sDfpAL6ArWZbM5tA==}
     dev: false
 
   /pako@0.2.9:
@@ -5583,7 +5567,7 @@ packages:
     resolution: {integrity: sha512-k9ecfXHmIPuFVI61B9DeLPN0qFHfawM6RsuX48hoqlaKSF61RskNjSm1lI8PhBEM0MRdLxVVm4WmTqJQccH9mA==}
     dependencies:
       '@types/hast': 3.0.4
-      hast-util-to-html: 9.0.4
+      hast-util-to-html: 9.0.5
       unified: 11.0.5
     dev: false
 
@@ -6432,8 +6416,8 @@ packages:
     resolution: {integrity: sha512-qh4mBffhlkiXwDAOxvSGxhL0QEQsTbnP9BozOK3OYPEGvPvdWzvAUaXNtUSMdNsKDtuyjEbyVUPFZ52SSLhLqw==}
     dev: false
 
-  /ultrahtml@1.5.3:
-    resolution: {integrity: sha512-GykOvZwgDWZlTQMtp5jrD4BVL+gNn2NVlVafjcFUJ7taY20tqYdwdoWBFy6GBJsNTZe1GkGPkSl5knQAjtgceg==}
+  /ultrahtml@1.6.0:
+    resolution: {integrity: sha512-R9fBn90VTJrqqLDwyMph+HGne8eqY1iPfYhPzZrvKpIfwkWZbcYlfpsb8B9dTvBfpy1/hqAD7Wi8EKfP9e8zdw==}
     dev: false
 
   /unbox-primitive@1.0.2:
@@ -6739,8 +6723,8 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vite@6.2.2:
-    resolution: {integrity: sha512-yW7PeMM+LkDzc7CgJuRLMW2Jz0FxMOsVJ8Lv3gpgW9WLcb9cTW+121UEr1hvmfR7w3SegR5ItvYyzVz1vxNJgQ==}
+  /vite@6.2.6:
+    resolution: {integrity: sha512-9xpjNl3kR4rVDZgPNdTL0/c6ao4km69a/2ihNQbcANz8RuCOK3hQBmLSJf3bRKVQjVMda+YvizNE8AwvogcPbw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -6786,7 +6770,7 @@ packages:
       fsevents: 2.3.3
     dev: false
 
-  /vitefu@1.0.6(vite@6.2.2):
+  /vitefu@1.0.6(vite@6.2.6):
     resolution: {integrity: sha512-+Rex1GlappUyNN6UfwbVZne/9cYC4+R2XDk9xkNXBKMw6HQagdX9PgZ8V2v1WUSK1wfBLp7qbI1+XSNIlB1xmA==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
@@ -6794,7 +6778,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 6.2.2
+      vite: 6.2.6
     dev: false
 
   /wcwidth@1.0.1:
@@ -7016,8 +7000,8 @@ packages:
     resolution: {integrity: sha512-N+d4UJSJbt/R3wqY7Coqs5pcV0aUj2j9IaQ3rNj9bVCLld8tTGKRa2USARjnvZJWVx1NDmQev8EknoczaOQDOA==}
     dev: false
 
-  /zod-to-json-schema@3.24.3(zod@3.24.2):
-    resolution: {integrity: sha512-HIAfWdYIt1sssHfYZFCXp4rU1w2r8hVVXYIlmoa0r0gABLs5di3RCqPU5DDROogVz1pAdYBaz7HK5n9pSUNs3A==}
+  /zod-to-json-schema@3.24.5(zod@3.24.2):
+    resolution: {integrity: sha512-/AuWwMP+YqiPbsJx5D6TfgRTc4kTLjsh5SOcd4bLsfUg2RcEXrFMJl1DGgdHy2aCfsIA/cr/1JM0xcB2GZji8g==}
     peerDependencies:
       zod: ^3.24.1
     dependencies:
